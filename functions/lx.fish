@@ -1,3 +1,3 @@
 function lx --description 'List contents of directory, long format, sorted by extension'
-	ll -sextension
+	ll -sextension $argv
 end

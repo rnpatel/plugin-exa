@@ -1,3 +1,3 @@
 function lk --description 'List contents of directory, long format, sorted by size (ascending)'
-	ll -ssize
+	ll -ssize $argv
 end
